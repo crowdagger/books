@@ -3,7 +3,7 @@ author: "Steve Klabnik and Carol Nichols, with Contributions from the Rust Commu
 lang: en
 
 crowbook.html_as_text: false
-tex.hyperref: false
+# tex.hyperref: false
 rendering.highlight: syntect
 tex.links_as_footnotes: false
 rendering.num_depth: 1
