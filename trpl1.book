@@ -1,0 +1,81 @@
+title: The Rust Programming Language
+author: The Rust Project Developpers
+lang: en
+
+crowbook.html_as_text: false
+tex.hyperref: false
+rendering.highlight: syntect
+tex.links_as_footnotes: false
+rendering.num_depth: 1
+rendering.inline_toc: true
+
+output.base_path: docs/
+
+output.html: trpl1.html
+output.epub: trpl1.epub
+output.pdf: trpl1.pdf
+
+@ Introduction
++ trpl/first-edition/src/README.md
+@ Getting Started
++ trpl/first-edition/src/getting-started.md
+@ Tutorial: Guessing Games
++ trpl/first-edition/src/guessing-game.md
+@ Syntax and Semantics
++ trpl/first-edition/src/syntax-and-semantics.md
+-- trpl/first-edition/src/variable-bindings.md
+-- trpl/first-edition/src/functions.md
+-- trpl/first-edition/src/primitive-types.md
+-- trpl/first-edition/src/comments.md
+-- trpl/first-edition/src/if.md
+-- trpl/first-edition/src/loops.md
+-- trpl/first-edition/src/vectors.md
+-- trpl/first-edition/src/ownership.md
+-- trpl/first-edition/src/references-and-borrowing.md
+-- trpl/first-edition/src/lifetimes.md
+-- trpl/first-edition/src/mutability.md
+-- trpl/first-edition/src/structs.md
+-- trpl/first-edition/src/enums.md
+-- trpl/first-edition/src/match.md
+-- trpl/first-edition/src/patterns.md
+-- trpl/first-edition/src/method-syntax.md
+-- trpl/first-edition/src/strings.md
+-- trpl/first-edition/src/generics.md
+-- trpl/first-edition/src/traits.md
+-- trpl/first-edition/src/drop.md
+-- trpl/first-edition/src/if-let.md
+-- trpl/first-edition/src/trait-objects.md
+-- trpl/first-edition/src/closures.md
+-- trpl/first-edition/src/ufcs.md
+-- trpl/first-edition/src/crates-and-modules.md
+-- trpl/first-edition/src/const-and-static.md
+-- trpl/first-edition/src/attributes.md
+-- trpl/first-edition/src/type-aliases.md
+-- trpl/first-edition/src/casting-between-types.md
+-- trpl/first-edition/src/associated-types.md
+-- trpl/first-edition/src/unsized-types.md
+-- trpl/first-edition/src/operators-and-overloading.md
+-- trpl/first-edition/src/deref-coercions.md
+-- trpl/first-edition/src/macros.md
+-- trpl/first-edition/src/raw-pointers.md
+-- trpl/first-edition/src/unsafe.md
+@ Effective Rust
++ trpl/first-edition/src/effective-rust.md
+-- trpl/first-edition/src/the-stack-and-the-heap.md
+-- trpl/first-edition/src/testing.md
+-- trpl/first-edition/src/conditional-compilation.md
+-- trpl/first-edition/src/documentation.md
+-- trpl/first-edition/src/iterators.md
+-- trpl/first-edition/src/concurrency.md
+-- trpl/first-edition/src/error-handling.md
+-- trpl/first-edition/src/choosing-your-guarantees.md
+-- trpl/first-edition/src/ffi.md
+-- trpl/first-edition/src/borrow-and-asref.md
+-- trpl/first-edition/src/release-channels.md
+-- trpl/first-edition/src/using-rust-without-the-standard-library.md
+-- trpl/first-edition/src/procedural-macros.md
+@ Appendix
++ trpl/first-edition/src/glossary.md
++ trpl/first-edition/src/syntax-index.md
++ trpl/first-edition/src/bibliography.md
+
