@@ -8,12 +8,12 @@ can look at here:
 
 ## Second edition
 
-* PDF: [A4]((http://lise-henry.github.io/books/trpl2-a4.pdf), [Letter](http://lise-henry.github.io/books/trpl2-letter.pdf), [A5](http://lise-henry.github.io/books/trpl2.pdf)
+* PDF: [A4](http://lise-henry.github.io/books/trpl2-a4.pdf), [Letter](http://lise-henry.github.io/books/trpl2-letter.pdf), [A5](http://lise-henry.github.io/books/trpl2.pdf)
 * [EPUB](http://lise-henry.github.io/books/trpl2.epub)
 
 ## First edition
 
-* PDF: [A4](http://lise-henry.github.io/books/trpl1-a4.pdf), [Letter]((http://lise-henry.github.io/books/trpl1-letter.pdf), [A5](http://lise-henry.github.io/books/trpl1.pdf)
+* PDF: [A4](http://lise-henry.github.io/books/trpl1-a4.pdf), [Letter](http://lise-henry.github.io/books/trpl1-letter.pdf), [A5](http://lise-henry.github.io/books/trpl1.pdf)
 * [EPUB](http://lise-henry.github.io/books/trpl1.epub)
 
 ## Why?
