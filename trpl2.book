@@ -5,6 +5,9 @@ lang: en
 crowbook.html_as_text: false
 tex.hyperref: false
 rendering.highlight: none
+tex.links_as_footnotes: false
+rendering.num_depth: 1
+rendering.inline_toc: true
 
 output.base_path: docs/
 
