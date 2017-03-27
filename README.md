@@ -20,8 +20,8 @@ of books.
 ## Status and what's next
 
 The PDF and EPUB files are existing, so it somewhat works. They could be better,
-though. Particularly, I didn't manage to get the syntax highlighting
-on LaTeX, this is something I plan to work on. 
+though. Inner links don't work. Also I didn't manage to get the syntax highlighting
+on LaTeX but this is something I plan to work on. 
 
 I'd also like to try to see how this works on other books. Later. Maybe.
 
