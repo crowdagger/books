@@ -69,4 +69,4 @@ books are dual licensed under the Apache 2 and MIT License.
 Other people have converted Rust books to PDF and EPUB:
 
 * [Killercup provides PDF and EPUB versions of *The Rust Programming
-  Language* (first edition) and of *The rustonomicon*](https://killercup.github.io/trpl-ebook/).
+  Language* and of *The rustonomicon*](https://killercup.github.io/trpl-ebook/).
