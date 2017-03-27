@@ -2,16 +2,23 @@
 
 The purpose of [this repository](https://github.com/lise-henry/books)
 is to try to provide PDF and EPUB vesions of Rust books. Currently,
-there is only an early attempt at converting the second version of [*The Rust
+there is only an early attempt at converting the [*The Rust
 Programming Language*](https://github.com/rust-lang/book), which you
 can look at here:
 
+## Second edition
+
 * [PDF](http://lise-henry.github.io/books/trpl2.pdf)
-* [EPUB](http://lise-henry.github.io/books/trpl2.epub).
+* [EPUB](http://lise-henry.github.io/books/trpl2.epub)
+
+## First edition
+
+* [PDF](http://lise-henry.github.io/books/trpl1.pdf)
+* [EPUB](http://lise-henry.github.io/books/trpl1.epub)
 
 ## Why?
 
-Because this book is cool, but I personally prefer to read on a
+Because these books are great but I personally prefer to read on a
 ereader than on computer screen. Plus my
 pet project is building [yet another converter from Markdown books to
 PDF, EPUB and HTML](https://github.com/lise-henry/crowbook) converter from Markdown books to PDF, EPUB and HTML, so I wanted to know if it could work on this kind
@@ -20,8 +27,8 @@ of books.
 ## Status and what's next
 
 The PDF and EPUB files are existing, so it somewhat works. They could be better,
-though. Inner links don't work. Also I didn't manage to get the syntax highlighting
-on LaTeX but this is something I plan to work on. 
+though. Inner links don't work. The toc is quite messy. There are
+probably a ton of quirks.
 
 I'd also like to try to see how this works on other books. Later. Maybe.
 
@@ -40,6 +47,7 @@ work under it. Then
 $ git clone https://github.com/lise-henry/books/
 $ cd books
 $ crowbook trpl2.book
+$ crowbook trpl1.book
 ```
 
 Since the source files are in a git submodule you might need to do
