@@ -19,7 +19,7 @@ of books.
 
 ## Status and what's next
 
-The files are existing, so it somewhat works. They could be better,
+The PDF and EPUB files are existing, so it somewhat works. They could be better,
 though. Particularly, I didn't manage to get the syntax highlighting
 on LaTeX, this is something I plan to work on. 
 
@@ -39,7 +39,7 @@ work under it. Then
 ```
 $ git clone https://github.com/lise-henry/books/
 $ cd books
-$ crowbook trpl2.ebook
+$ crowbook trpl2.book
 ```
 
 Since the source files are in a git submodule you might need to do
@@ -47,4 +47,12 @@ some git magic. Honestly, I am not sure of how that works so I won't
 be able to help you on that.
 
 Keeping these versiong up to date should not be too difficult, as long
-as the structure of the 
+as the structure of the `Summary.md` file in
+the [source repository](https://github.com/rust-lang/book) is mirrored
+to the `trpl2.book` file here.
+
+
+## License
+
+[*The Rust Programming Language*](https://github.com/rust-lang/book)
+books are dual licensed under the Apache 2 and MIT License. 
