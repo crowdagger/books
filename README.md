@@ -51,8 +51,14 @@ as the structure of the `Summary.md` file in
 the [source repository](https://github.com/rust-lang/book) is mirrored
 to the `trpl2.book` file here.
 
-
 ## License
 
 [*The Rust Programming Language*](https://github.com/rust-lang/book)
 books are dual licensed under the Apache 2 and MIT License. 
+
+## Other EPUB/PDF versions of Rust books
+
+Other people have converted Rust books to PDF and EPUB:
+
+* [Killercup provides PDF and EPUB versions of *The Rust Programming
+  Language* (first edition) and of *The rustonomicon*](https://killercup.github.io/trpl-ebook/).
