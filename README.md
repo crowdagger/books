@@ -8,10 +8,14 @@ can look at here:
 
 ## Second edition
 
+(Last updated: 2017-06-11)
+
 * PDF: [A4](http://lise-henry.github.io/books/trpl2-a4.pdf), [Letter](http://lise-henry.github.io/books/trpl2-letter.pdf), [A5](http://lise-henry.github.io/books/trpl2.pdf)
 * [EPUB](http://lise-henry.github.io/books/trpl2.epub)
 
 ## First edition
+
+(Last updated: 2017-06-11)
 
 * PDF: [A4](http://lise-henry.github.io/books/trpl1-a4.pdf), [Letter](http://lise-henry.github.io/books/trpl1-letter.pdf), [A5](http://lise-henry.github.io/books/trpl1.pdf)
 * [EPUB](http://lise-henry.github.io/books/trpl1.epub)
@@ -41,7 +45,14 @@ here.
 
 If you want to play with that too, you'll need the Github version of
 crowbook, since I had to do some tweaking to get The Rust Lang Book to
-work under it. Then
+work under it.
+
+```
+$ git clone https://github.com/lise-henry/crowbook
+$ cargo install
+```
+
+Then
 
 ```
 $ git clone https://github.com/lise-henry/books/
