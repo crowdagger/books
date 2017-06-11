@@ -6,9 +6,10 @@ crowbook.html_as_text: false
 # tex.hyperref: false
 rendering.highlight: syntect
 tex.links_as_footnotes: false
-rendering.num_depth: 1
+rendering.num_depth: 2
 rendering.inline_toc: true
 
+resources.base_path.images: trpl/second-edition/src/img/
 output.base_path: docs/
 
 output.html: trpl2.html
@@ -31,7 +32,9 @@ output.pdf: trpl2.pdf
 -- trpl/second-edition/src/ch04-02-references-and-borrowing.md
 -- trpl/second-edition/src/ch04-03-slices.md
 + trpl/second-edition/src/ch05-00-structs.md
--- trpl/second-edition/src/ch05-01-method-syntax.md
+-- trpl/second-edition/src/ch05-01-defining-structs.md
+-- trpl/second-edition/src/ch05-02-example-structs.md
+-- trpl/second-edition/src/ch05-03-method-syntax.md
 + trpl/second-edition/src/ch06-00-enums.md
 -- trpl/second-edition/src/ch06-01-defining-an-enum.md
 -- trpl/second-edition/src/ch06-02-match.md
@@ -92,19 +95,33 @@ output.pdf: trpl2.pdf
 -- trpl/second-edition/src/ch16-03-shared-state.md
 -- trpl/second-edition/src/ch16-04-extensible-concurrency-sync-and-send.md
 + trpl/second-edition/src/ch17-00-oop.md
+-- trpl/second-edition/src/ch17-01-what-is-oo.md
+-- trpl/second-edition/src/ch17-02-trait-objects.md
+-- trpl/second-edition/src/ch17-03-oo-design-patterns.md
 
 @ Advanced Topics
 + trpl/second-edition/src/ch18-00-patterns.md
+-- trpl/second-edition/src/ch18-01-all-the-places-for-patterns.md
+-- trpl/second-edition/src/ch18-02-refutability.md
+-- trpl/second-edition/src/ch18-03-pattern-syntax.md
 + trpl/second-edition/src/ch19-00-advanced-features.md
 -- trpl/second-edition/src/ch19-01-unsafe-rust.md
 -- trpl/second-edition/src/ch19-02-advanced-lifetimes.md
 -- trpl/second-edition/src/ch19-03-advanced-traits.md
-+ trpl/second-edition/src/ch20-00-unnamed-project.md
+-- trpl/second-edition/src/ch19-04-advanced-types.md
+-- trpl/second-edition/src/ch19-05-advanced-functions-and-closures.md
++ trpl/second-edition/src/ch20-00-final-project-a-web-server.md
+-- trpl/second-edition/src/ch20-01-single-threaded.md
+-- trpl/second-edition/src/ch20-02-slow-requests.md
+-- trpl/second-edition/src/ch20-03-designing-the-interface.md
+-- trpl/second-edition/src/ch20-04-storing-threads.md
+-- trpl/second-edition/src/ch20-05-sending-requests-via-channels.md
+-- trpl/second-edition/src/ch20-06-graceful-shutdown-and-cleanup.md
 - trpl/second-edition/src/appendix-00.md
 -- trpl/second-edition/src/appendix-01-keywords.md
 -- trpl/second-edition/src/appendix-02-operators.md
--- trpl/second-edition/src/appendix-03-derivable-traits.md
--- trpl/second-edition/src/appendix-04-nightly-rust.md
--- trpl/second-edition/src/appendix-05-macros.md
+# -- trpl/second-edition/src/appendix-03-derivable-traits.md
+# -- trpl/second-edition/src/appendix-04-nightly-rust.md
+# -- trpl/second-edition/src/appendix-05-macros.md
 -- trpl/second-edition/src/appendix-06-translation.md
 -- trpl/second-edition/src/appendix-07-newest-features.md
