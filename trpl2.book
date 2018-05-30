@@ -8,16 +8,20 @@ rendering.highlight: syntect
 tex.links_as_footnotes: false
 rendering.num_depth: 2
 rendering.inline_toc: true
+rendering.part.reset_counter: false
 
-resources.base_path.images: trpl/second-edition/src/img/
+resources.base_path.images: trpl/second-edition/src/
 output.base_path: docs/
 
 output.html: trpl2.html
 output.epub: trpl2.epub
 output.pdf: trpl2.pdf
 
+! trpl/second-edition/src/foreword.md
+
 @ Getting started
-+ trpl/second-edition/src/ch01-00-introduction.md
++ trpl/second-edition/src/ch00-00-introduction.md
++ trpl/second-edition/src/ch01-00-getting-started.md
 -- trpl/second-edition/src/ch01-01-installation.md
 -- trpl/second-edition/src/ch01-02-hello-world.md
 + trpl/second-edition/src/ch02-00-guessing-game-tutorial.md
@@ -112,16 +116,14 @@ output.pdf: trpl2.pdf
 -- trpl/second-edition/src/ch19-05-advanced-functions-and-closures.md
 + trpl/second-edition/src/ch20-00-final-project-a-web-server.md
 -- trpl/second-edition/src/ch20-01-single-threaded.md
--- trpl/second-edition/src/ch20-02-slow-requests.md
--- trpl/second-edition/src/ch20-03-designing-the-interface.md
--- trpl/second-edition/src/ch20-04-storing-threads.md
--- trpl/second-edition/src/ch20-05-sending-requests-via-channels.md
--- trpl/second-edition/src/ch20-06-graceful-shutdown-and-cleanup.md
-- trpl/second-edition/src/appendix-00.md
+-- trpl/second-edition/src/ch20-02-multithreaded.md
+-- trpl/second-edition/src/ch20-03-graceful-shutdown-and-cleanup.md
+
++ trpl/second-edition/src/appendix-00.md
 -- trpl/second-edition/src/appendix-01-keywords.md
 -- trpl/second-edition/src/appendix-02-operators.md
-# -- trpl/second-edition/src/appendix-03-derivable-traits.md
-# -- trpl/second-edition/src/appendix-04-nightly-rust.md
-# -- trpl/second-edition/src/appendix-05-macros.md
--- trpl/second-edition/src/appendix-06-translation.md
--- trpl/second-edition/src/appendix-07-newest-features.md
+-- trpl/second-edition/src/appendix-03-derivable-traits.md
+-- trpl/second-edition/src/appendix-04-macros.md
+-- trpl/second-edition/src/appendix-05-translation.md
+-- trpl/second-edition/src/appendix-06-newest-features.md
+-- trpl/second-edition/src/appendix-07-nightly-rust.md
