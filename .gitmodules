@@ -1,3 +1,6 @@
 [submodule "trpl"]
 	path = trpl
 	url = https://github.com/rust-lang/book.git
+[submodule "cargo"]
+	path = cargo
+	url = https://github.com/istankovic/cargo-book
