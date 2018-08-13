@@ -123,5 +123,5 @@ output.pdf: trpl-2018.pdf
 -- trpl/2018-edition/src/appendix-03-derivable-traits.md
 -- trpl/2018-edition/src/appendix-04-macros.md
 -- trpl/2018-edition/src/appendix-05-translation.md
--- trpl/2018-edition/src/appendix-06-newest-features.md
--- trpl/2018-edition/src/appendix-07-nightly-rust.md
+-- trpl/2018-edition/src/appendix-06-nightly-rust.md
+-- trpl/2018-edition/src/appendix-07-other-useful-tools.md
