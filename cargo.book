@@ -1,0 +1,49 @@
+title: "The Cargo Book"
+author: "Ivan Stankovic"
+lang: en
+
+crowbook.html_as_text: false
+# tex.hyperref: false
+rendering.highlight: syntect
+tex.links_as_footnotes: false
+rendering.num_depth: 2
+rendering.inline_toc: true
+
+resources.base_path.images: cargo/src/
+output.base_path: docs/
+
+output.html: cargo.html
+output.epub: cargo.epub
+output.pdf: cargo.pdf
+
+@ Getting started
++ cargo/src/getting-started.md
+-- cargo/src/01-01-installation.md
+-- cargo/src/01-02-first-steps.md
+
+@ Guide
++ cargo/src/guide.md
+-- cargo/src/02-01-why-cargo-exists.md
+-- cargo/src/02-02-creating-a-new-project.md
+-- cargo/src/02-03-working-on-an-existing-project.md
+-- cargo/src/02-04-dependencies.md
+-- cargo/src/02-05-project-layout.md
+-- cargo/src/02-06-tests.md
+-- cargo/src/02-07-continuous-integration.md
+
+@ Cargo In Depth
++ cargo/src/cargo-in-depth.md
+-- cargo/src/03-01-specifying-dependencies.md
+-- cargo/src/03-02-manifest.md
+-- cargo/src/03-03-config.md
+-- cargo/src/03-04-environment-variables.md
+-- cargo/src/03-05-build-scripts.md
+-- cargo/src/03-06-crates-io.md
+-- cargo/src/03-07-pkgid-spec.md
+-- cargo/src/03-08-source-replacement.md
+-- cargo/src/03-09-external-tools.md
+-- cargo/src/03-10-policies.md
+
+@ FAQ
++ cargo/src/faq.md
+
